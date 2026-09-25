@@ -1,5 +1,27 @@
 # Changelog
 
+## Unreleased
+
+* contributors: @nczz
+
+---
+
+### New Features:
+* Added project-scoped Wiki page JSON-RPC procedures for page, revision, and attachment access.
+
+### Improvements:
+* Hardened direct wiki page and attachment access checks so IDs are resolved to project ownership before use.
+* Added additive database indexes for Wiki page API listing and lookup paths.
+
+
+## Version 0.4.2
+
+* contributors: @lastlink
+
+---
+
+### Improvements:
+* Updated docs with notes about markdown format
 ## Version 0.4.1
 * contributors: @imfx77
 
