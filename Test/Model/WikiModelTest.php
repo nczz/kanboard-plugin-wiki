@@ -10,6 +10,7 @@ use Kanboard\Core\Controller\PageNotFoundException;
 use Kanboard\Core\Controller\AccessForbiddenException;
 use Kanboard\Core\Security\AuthenticationManager;
 use Kanboard\Auth\DatabaseAuth;
+use KanboardTests\units\Base;
 
 class WikiModelTest extends Base
 {

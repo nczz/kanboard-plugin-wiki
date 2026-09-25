@@ -4,6 +4,7 @@ require_once 'tests/units/Base.php';
 
 use Kanboard\Core\Plugin\Loader;
 use Kanboard\Plugin\Wiki\Helper\WikiHelper;
+use KanboardTests\units\Base;
 
 class WikiHelperTest extends Base
 {

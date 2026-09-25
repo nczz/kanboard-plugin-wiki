@@ -3,6 +3,7 @@
 require_once 'tests/units/Base.php';
 
 use Kanboard\Plugin\Wiki\Plugin;
+use KanboardTests\units\Base;
 
 class PluginTest extends Base
 {
