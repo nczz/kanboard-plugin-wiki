@@ -62,9 +62,12 @@ jobs:
     container: kanboard/tests:latest
     services:
       mariadb:
-        image: mariadb:latest
+        image: mariadb:11.4
         env:
           MYSQL_ROOT_PASSWORD: secret
+          MARIADB_ROOT_PASSWORD: secret
+          MARIADB_USER: root
+          MARIADB_DATABASE: kanboard_unit_test
         ports:
         - 3306:3306
         options: >-
@@ -88,4 +91,5 @@ jobs:
       env:
         DB_HOSTNAME: mariadb
         DB_PASSWORD: secret
+        DB_USERNAME: root
         DB_PORT: ${{ job.services.mariadb.ports[3306] }}
